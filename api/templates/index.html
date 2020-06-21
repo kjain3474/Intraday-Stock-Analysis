@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intraday Data</title>
+    {% load static %}
+    <script
+      type="text/javascript"
+      src="{% static 'api/fusioncharts.js' %}"
+    ></script>
+    <script
+    type="text/javascript"
+    src="{% static 'api/fusioncharts.charts.js' %}"
+  ></script>
+    <script
+      type="text/javascript"
+      src="{% static 'api/themes/fusioncharts.theme.fint.js' %}"
+    ></script>
+  </head>
+  <body>
+
+    <div id="chart-1"></div>
+
+    {{ output|safe }}
+  </body>
+</html>

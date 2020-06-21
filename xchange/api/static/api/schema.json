@@ -1,0 +1,15 @@
+[{
+    "name": "BSE Price (in Rs.)",
+    "type": "number"
+},{
+    "name": "NSE Price (in Rs.)",
+    "type": "number"
+},
+{
+    "name": "Time",
+    "type": "date",
+    "format": "%H:%M"
+},{
+    "name": "Difference (in Rs.)",
+    "type": "number"
+}]
